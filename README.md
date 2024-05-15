@@ -5,6 +5,6 @@
 
 Данный генератор представлен в виде визитной карточки специалиста, я вдохновлялась сервисом по подбору специалистов [ПРОФИ](https://profi.ru/). 
 
-![pngwing com (1)](https://github.com/zzzVSchulzzz/profi-random/assets/135040463/b659220e-2344-42bb-9c60-c8204224621e)
+![![pngwing com (2)](https://github.com/zzzVSchulzzz/profi-random/assets/135040463/d0842d40-642c-40e5-aaae-a17cd541fef3)
 
 
