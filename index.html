@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных пользователей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row game-card align-items-center">
+        <div class="col col-md-6 offset-md-3">
+            <div class="card text-center">
+                <div class="card-header">
+                    <p class="m-0">Сгенерируй визитку настоящего ПРОФИ</p>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <div class="person">
+                                <h3 class="card-title"><span id="surnameOutput">Фамилия</span></h3>
+                                <h4><span id="firstNameOutput">Имя</span></h4>
+                                <h4><span id="vathersNameOutput">Отчество</span></h4>
+                            </div>
+                            <h2><span id="professionOutput">Профессия</span></h2>
+                            <p>
+                                <span id="genderOutput">Пол</span>
+                                <span id="birthDateOutput">Дата</span>
+                                <span id="birthMonthOutput">Месяц</span>
+                                <span id="birthYearOutput">Год рождения</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container text-center">
+                <button type="button" id="profiGen" class="btn btn-danger">ПРОФИ-генератор</button>
+                <button type="button" id="profiDel" class="btn btn-secondary">Очистить визитку</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="personGenerator.js"></script>
+<script src="init.js"></script>
+</body>
+</html>
